@@ -1,3 +1,12 @@
+@ECHO OFF
+:Inicio
+COLOR 0A
+SET THISDIR=%~dp0
+
+ECHO  #######################################
+ECHO  #### Mantenimiento del sistema ########
+ECHO  #######################################
+
 REM .NET Framework 4
 REM Refresco del .NET
 "%windir%\Microsoft.NET\Framework\v4.0.30319\ngen.exe" update /force

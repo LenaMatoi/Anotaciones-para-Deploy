@@ -1,3 +1,12 @@
+@ECHO OFF
+:Inicio
+COLOR 0A
+SET THISDIR=%~dp0
+
+ECHO  #######################################
+ECHO  ##### Eliminacion del Onedrive ########
+ECHO  #######################################
+
 REM MATAMOS EL ONEDRIVE
 taskkill /IM "OneDrive.exe" /F
 REM PROCEDEMOS A DESISNTALAR EL ONEDRIVE

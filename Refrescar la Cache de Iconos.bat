@@ -1,3 +1,12 @@
+@ECHO OFF
+:Inicio
+COLOR 0A
+SET THISDIR=%~dp0
+
+ECHO  #######################################
+ECHO  #### Refrescar la cache de Iconos #####
+ECHO  #######################################
+
 REM MATAMOS EL PROCESO EXPLORER
 taskkill /f /im explorer.exe
 REM ESPERAMOS UN POCO

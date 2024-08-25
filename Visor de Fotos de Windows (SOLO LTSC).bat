@@ -1,3 +1,12 @@
+@ECHO OFF
+:Inicio
+COLOR 0A
+SET THISDIR=%~dp0
+
+ECHO  ###############################################
+ECHO  #### Añadimos el Visor Clasico de Windows #####
+ECHO  ###############################################
+
 REM AÑADIMOS LAS CLAVES DE REGISTRO PARA REGISTAR EL VISOR DE FOTOS CLASICO (SOLO LTSC)
 reg add "HKCU\Software\Classes\.jpg" /ve /t "REG_SZ" /d "PhotoViewer.FileAssoc.Tiff" /f
 reg add "HKCU\Software\Classes\.jpeg" /ve /t "REG_SZ" /d "PhotoViewer.FileAssoc.Tiff" /f
